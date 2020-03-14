@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+<a-assets>
+    <a-assets-item id = "escenario" src="the-slums.obj">  </a-assets-item>
+    <a-assets-item id = "escenario-mtl" src="the-slums.mtl">  </a-assets-item>
+</a-assets>
+
+<a-obj-model src="#escenario" mtl="#escenario-mtl"></a-obj-model>
+    <a-box color="black" position="0 1.7 -3" width="3" height="0.5"></a-box>
+    <a-text color="white" position="-1 1.7 -2"  value="Hola Guille"></a-text>
+</a-scene>
+</body>
+</html>
